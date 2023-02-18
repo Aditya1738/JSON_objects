@@ -7,11 +7,21 @@
 <body>
     <div id="demo">JSON example</div>
     <script>
-        const jasonobject = `{"college": "GCEK","Rank" : "28","Date" :"1954","No. of students" : "600"}`;
+        const jb = {"college": "GCEK", 
+        "Rank" : 28 ,
+        "Date" :1954,
+         "No_of_students" : 600
+        };
 
-    const parseobject = JSON.parse(jasonobject);
-    
-        console.log(parseobject);
+        document.write("collegte = "+jb.college);
+        document.write("<br>");
+        document.write("Rank = "+jb.Rank);
+        document.write("<br>");
+        document.write("Date = "+jb.Date);
+        document.write("<br>");
+        document.write("No._of_students="+jb.No_of_students);
+        
+
     </script>
 
 </body>
